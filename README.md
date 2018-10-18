@@ -1,2 +1,2 @@
 # my-pwp-sharon-romero
-Personal Website Project
+My personal website project that will showcase my web projects.
