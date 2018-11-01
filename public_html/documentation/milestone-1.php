@@ -5,6 +5,8 @@
 		<title>Sharon Romero Gallery</title>
 	</head>
 
+	<body>
+
 	<p><strong>Purpose</strong>: The purpose of this website is to to allow fellow web developers and designers to collaborate and keep in touch with me.</p>
 
 	<p><strong>Audience</strong>: This website is geared toward fellow web designers and developers who are just starting out in the field and who want to take a look at my projects.</p>
@@ -54,5 +56,7 @@
 	<h2>Technology</h2>
 
 	<p>HP Pavilion 14-ce0068st 14" laptop, 8th generation Intel Core i5 processor, Intel UHD Graphics 620, 4GB memory, 1 TB HDD, 15.6" diagonal HD display.</p>
+
+	</body>
 
 </html>
