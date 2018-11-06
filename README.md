@@ -9,3 +9,7 @@ Great job on Milestone1. The scope of work you outlined in your Purpose, Audienc
   *  Side note: the git@githitub.com URLs are used for doing git commands from the command line but don't do much outside of that. You can click on "Use HTTPS" from the "Clone or download" tab to see the standard web URL for linking to GitHub projects!
   ### Grade Tier III
 
+## Milestone 2a Feedback
+Good job on your Milestone 2a. The details about the different sections of your site could be more fleshed out, but you indicated the main points you want to have on your personal site and sometimes it makes sense to have a simple, straight-forward sections. You also connected this site to your persona, which is great. Nice job!
+
+Your Milestone 2a passes at a Tier III.
