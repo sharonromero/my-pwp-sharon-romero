@@ -37,11 +37,23 @@ $(document).ready(function() {
 			maxLength: "2000 characters max."
 			}
 		},
+		//Ajax submit the form data to back end if rules pass
+		submitHandler: function(form) {
+		$(#form).ajaxSubmit {
+			type: "Post",
+				url: $("#form").attr("action"),
 
-		rules: {
-			name: {
-				required
+				success: function(ajaxOutput) {
+			//clear the output area's formatting
+				$("output-area").css("display", "");
+
+				//write the server's reply to the output area
+				$("#output-area")
+
+				//reset the form if it was successful
 			}
-	}
-	})
+		}
+		}
+
+
 })
