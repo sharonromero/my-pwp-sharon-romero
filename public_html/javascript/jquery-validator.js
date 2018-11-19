@@ -48,12 +48,16 @@ $(document).ready(function() {
 				$("output-area").css("display", "");
 
 				//write the server's reply to the output area
-				$("#output-area")
+				$("#output-area").html(ajaxOutput);
 
 				//reset the form if it was successful
+				if($(".alert-success").length >= 1) {
+					$("#form")[0].reset();
+				}
 			}
-		}
-		}
+		})
+	}
 
+}); /* end validate function here */
 
-})
+});/* end document.ready()*/
