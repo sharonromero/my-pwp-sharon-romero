@@ -48,9 +48,9 @@
 
 		<!--Gallery-->
 		<div class="container mt-5">
-			<img src="img/rose.jpg" width="300" height="300" class="rounded float-left" alt="" />
-			<img src="img/pink.jpg" width="300" height="300" class="rounded float-center" alt="" />
-			<img src="img/hibiscus.jpg" width="300" height="300" class="rounded float-right" alt="" />
+			<!--<img src="img/rose.jpg" width="300" height="300" class="rounded float-left" alt="" />-->
+			<!--<img src="img/pink.jpg" width="300" height="300" class="rounded float-right" alt="" />-->
+			<!--<img src="img/hibiscus.jpg" width="300" height="300" class="rounded float-right" alt="" />-->
 		</div>
 
 		<!--divider line across the bottom of the gallery-->
@@ -67,19 +67,28 @@
 		<div class="container">
 			<p id="contact form">Contact Form</p>
 
-				<form action="php/mailer.php" method="post">
-				<ul>
-				<li><label for="firstname">First Name:</label>
-					<input type="text" name="firstname" id="firstname"></li>
-				<li><label for="lastname">Last Name:</label>
-					<input type="text" name="lastname" id="lastname"></li>
-				<li><label for="emailaddress">Email Address:</label>
-					<input type="email" name="emailaddress" id="emailaddress"></li>
-				<li><label for="comments">Comments:</label> <br>
+			<form action="php/mailer.php" method="post">
+			<div class="form-group">
+				<label for="firstname">First Name:</label>
+				<input type="text" class="form-control" id="firstname">
+			</div>
+
+			<div class="form-group">
+				<label for="lastname">Last Name:</label>
+				<input type="text" class="form-control" id="lastname">
+			</div>
+
+			<div class="form-group">
+				<label for="emailaddress">Email Address:</label>
+				<input type="email" class="form-control" id="emailaddress">
+			</div>
+
+			<div class="form-group">
+				<label for="comments">Comments:</label>
 				<textarea name="comments" rows="4" cols="60" maxlength="250" placeholder="250 characters max"
 							 id="comments"></textarea>
-				</li>
-				</ul>
+			</div>
+
 
 				<!-- Recaptcha -->
 				<div class="g-recaptcha" data-sitekey="6Ldjz3sUAAAAAF7MH0n2cbTl0spjk5pU9WfYXsDD"></div>
