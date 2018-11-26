@@ -3,6 +3,6 @@
 }
 
 body {
-	background-image: url("/public_html/img/art-background-blue-268415.jpg");
+	background-image: url("../img/art-background-blue-268415.jpg");
 	background-size: cover;
 }
