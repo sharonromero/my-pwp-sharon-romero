@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,69 +34,72 @@
 
 	<body>
 		<!--Link Buttons-->
-		<div class="container-fluid mt-5">
+		<div class="container-fluid mt-2">
 			<nav class="nav">
-				<a class="nav-link about" href="#!">About</a>
-				<a class="nav-link contact" href="#!">Contact</a>
+				<a class="nav-link about text-white" href="#!">About</a>
+				<a class="nav-link contact text-white" href="#!">Contact</a>
 			</nav>
 		</div>
 
-		<!--divider line between jumbotron and text & image area-->
-		<div class="border-top my-3"></div>
-
-
-
 		<!--main header-->
 		<div class="jumbotron">
-			<h1 class="display-2">Sharon Romero</h1>
+			<h1 class="display-2 text-danger">Sharon Romero</h1>
 			<hr class="my-2">
-			<p>It does not matter how slowly you go as long as you do not stop.</p>
-			<small>Confucius</small>
+			<!--<p>Welcome to my website!</p>-->
 		</div>
+
+		<!--divider line between jumbotron and text & image area
+		<div class="border-top my-3"></div>-->
+
 
 
 		<!--text about website-->
-		<div class="container">
+		<div class="container mt-5">
 			<div class="row no-gutters">
 				<div class="col-12 col-sm-6 col-md-8">
-					<p>I love cheese, especially croque monsieur cheese and wine. Ricotta croque monsieur
-						cheeseburger cottage cheese cheese and biscuits lancashire fromage the big cheese. Halloumi swiss
-						camembert de normandie rubber cheese feta stilton who moved my cheese hard cheese. Dolcelatte
-						cauliflower cheese halloumi boursin halloumi cow cheese triangles hard cheese. Monterey jack fromage frais roquefort cheeseburger roquefort cheese and 				wine cheesecake boursin. Bocconcini bavarian bergkase edam caerphilly the big cheese cut the cheese	.col-12 .col-sm-6 .col-md-8</p>
+					<p>Hello! Welcome to my website.</p>
+					<p>I am an aspiring web developer who has recently graduated from the Deep-Dive Coding
+						Bootcamp. For the past 10 weeks I have done nothing but code. I know first-hand that becoming a web
+						developer is no easy task. It takes a lot of hours and determination	to become a web developer. As
+						I'm sure you are aware, there is a lot of information available that can help budding web
+						developers learn all they need to know to become a great web developer but with so much information
+						available, it can be hard figuring out where to start. Throughout the 10 weeks I was in the
+						bootcamp, I came across some great resources that are helpful to new web developers. I have listed
+						some of them below.</p>
 				</div>
 
 				<!--place for image-->
 				<div class="col-6 col-md-4">
 					<img src="https://news.nationalgeographic.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324.ngsversion.1526587209178.adapt.1900.1.jpg" width="400" height="300" alt="Man with backpack"/>
 
-					.col-6 .col-md-4</div>
+				</div>
 			</div>
 		</div>
 
-		<!--divider line between text & image area and form-->
-		<div class="border-bottom my-3"></div>
+		<!--divider line between text & image area and form
+		<div class="border-bottom my-3"></div>-->
 
 		<!--Form-->
 		<div class="container">
-			<p id="contact">Contact Me</p>
+			<h4 class="text-primary">Contact Me</h4><br>
 
 			<form action="php/mailer.php" method="post">
-			<div class="form-group">
+			<div class="form-group text-primary">
 				<label for="firstname">First Name:</label>
 				<input type="text" class="form-control" id="firstname">
 			</div>
 
-			<div class="form-group">
+			<div class="form-group text-primary">
 				<label for="lastname">Last Name:</label>
 				<input type="text" class="form-control" id="lastname">
 			</div>
 
-			<div class="form-group">
+			<div class="form-group text-primary">
 				<label for="emailaddress">Email Address:</label>
 				<input type="email" class="form-control" id="emailaddress">
 			</div>
 
-			<div class="form-group">
+			<div class="form-group text-primary">
 				<label for="comments">Comments:</label>
 				<textarea name="comments" rows="4" cols="60" maxlength="250" placeholder="250 characters max"
 							 id="comments"></textarea>
