@@ -1,8 +1,9 @@
 .jumbotron {
 	background-color: transparent;
+	padding: 2rem 2rem;
 }
 
 body {
-	background-image: url("../img/backdrop-17047_1920.jpg");
+	background-image: url("../img/abstract-2738403_1920.jpg");
 	background-size: cover;
 }
