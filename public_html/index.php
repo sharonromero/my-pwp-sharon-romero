@@ -27,8 +27,7 @@
 		<script src="javascript/javascript-validator.js"></script>
 
 		<!--Recaptcha snippet-->
-		<script src='https://www.google.com/recaptcha/api.js?render=6LeZI30UAAAAAPVxdBfr5ksmC3jkUoB8xPrTiMWN'></script>
-
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 
 	<body>
@@ -106,7 +105,7 @@
 
 
 				<!-- Recaptcha -->
-				<div class="g-recaptcha" data-sitekey="6Ldjz3sUAAAAAF7MH0n2cbTl0spjk5pU9WfYXsDD"></div>
+				<div class="g-recaptcha" data-sitekey="6LeZI30UAAAAAPVxdBfr5ksmC3jkUoB8xPrTiMWN"></div>
 
 				<!--Submit button-->
 					<p><input type="submit" value="Submit"></p>

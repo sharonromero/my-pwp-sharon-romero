@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	$("#form").validate({
+	$("pwp-form").validate({
 		//setup handling of form errors
 		debug: true,
 		errorClass: "alert alert-danger",
-		errorLabelContainer: "#output-area",
+		errorLabelContainer: "output-area",
 		errorElement: "div",
 
 		//rules here define what is good or bad input
@@ -30,7 +30,6 @@ $(document).ready(function() {
 			email: {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
-			}
 		},
 		message: {
 			required: "Please enter a message.",
@@ -39,25 +38,25 @@ $(document).ready(function() {
 		},
 		//Ajax submit the form data to back end if rules pass
 		submitHandler: function(form) {
-		$(#form).ajaxSubmit {
+		$("pwp-form").ajaxSubmit({
 			type: "Post",
-				url: $("#form").attr("action"),
+				url: $("pwp-form").attr("action"),
 
 				success: function(ajaxOutput) {
 			//clear the output area's formatting
 				$("output-area").css("display", "");
 
 				//write the server's reply to the output area
-				$("#output-area").html(ajaxOutput);
+				$("output-area").html(ajaxOutput);
 
 				//reset the form if it was successful
 				if($(".alert-success").length >= 1) {
-					$("#form")[0].reset();
+					$("pwp-form")[0].reset();
 				}
 			}
 		})
 	}
 
-}); /* end validate function here */
+});/* end validate function here */
 
 });/* end document.ready()*/
