@@ -24,7 +24,7 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="javascript/javascript-validator.js"></script>
+		<script src="javascript/form-validate.js"></script>
 
 		<!--Recaptcha snippet-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
@@ -105,7 +105,7 @@
 
 
 				<!-- Recaptcha -->
-				<div class="g-recaptcha" data-sitekey="6LeZI30UAAAAAPVxdBfr5ksmC3jkUoB8xPrTiMWN"></div>
+				<div class="g-recaptcha" data-sitekey="6Lfwtn0UAAAAAHCSKaFwWSeJo0z6A4zBHoyjD34c"></div>
 
 				<!--Submit button-->
 					<p><input type="submit" value="Submit"></p>
