@@ -14,12 +14,12 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#my-contact-form").validate({
+	$("pwp-form").validate({
 
 		// setup handling of form errors
 		debug: true,
 		errorClass: "alert alert-danger",
-		errorLabelContainer: "#output-area",
+		errorLabelContainer: "output-area",
 		errorElement: "div",
 
 		// rules here define what is good or bad input
@@ -55,20 +55,20 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#my-contact-form").ajaxSubmit({
+			$("pwp-form").ajaxSubmit({
 				type: "POST",
-				url: $("#my-contact-form").attr("action"),
+				url: $("pwp-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
-					$("#output-area").css("display", "");
+					$("output-area").css("display", "");
 
 					// write the server's reply to the output area
-					$("#output-area").html(ajaxOutput);
+					$("output-area").html(ajaxOutput);
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#my-contact-form")[0].reset();
+						$("pwp-form")[0].reset();
 					}
 				}
 			})

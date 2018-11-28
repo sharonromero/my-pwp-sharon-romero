@@ -6,13 +6,9 @@
 
 		<title>Personal Web Project</title>
 
-		<!--Recaptcha snippet-->
-		<script src='https://www.google.com/recaptcha/api.js?render=6LeZI30UAAAAAPVxdBfr5ksmC3jkUoB8xPrTiMWN'></script>
-
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
 
 			<!--jQuery files for Bootstrap-->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -28,7 +24,10 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
+		<script src="javascript/javascript-validator.js"></script>
+
+		<!--Recaptcha snippet-->
+		<script src='https://www.google.com/recaptcha/api.js?render=6LeZI30UAAAAAPVxdBfr5ksmC3jkUoB8xPrTiMWN'></script>
 
 	</head>
 
@@ -83,7 +82,7 @@
 		<div class="container">
 			<h4 class="text-primary">Contact Me</h4><br>
 
-			<form action="php/mailer.php" method="post">
+			<form id="pwp-form" action="php/mailer.php" method="post">
 			<div class="form-group text-primary">
 				<label for="firstname">First Name:</label>
 				<input type="text" class="form-control" id="firstname">
@@ -112,6 +111,12 @@
 				<!--Submit button-->
 					<p><input type="submit" value="Submit"></p>
 			</form>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</div>
 
 	</body>
