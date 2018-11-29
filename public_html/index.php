@@ -34,7 +34,6 @@
 		<!--Link Buttons-->
 		<div class="container-fluid mt-2">
 			<nav class="nav">
-				<a class="nav-link about text-white" href="#!">About</a>
 				<a class="nav-link contact text-white" href="#!">Contact</a>
 			</nav>
 		</div>
@@ -48,8 +47,6 @@
 
 		<!--divider line between jumbotron and text & image area
 		<div class="border-top my-3"></div>-->
-
-
 
 		<!--text about website-->
 		<div class="container mt-5">
@@ -72,8 +69,7 @@
 						.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3ahtml%0apage%3a1%0as%3arelevance%0asa%3atrue
 						%0aproducttypeid%3a2">HTML Essential Training with James Williamson</a> on Lynda.com</li>
 						<li><a href="https://www.learningwebdesign.com/">Learning Web Design A Beginner's Guide to HTML, CSS,
-								JavaScript, and Web Graphics</a> by Jennifer
-							Niederst Robbins</li>
+								JavaScript, and Web Graphics</a> by Jennifer Niederst Robbins</li>
 					</ul>
 				</div>
 

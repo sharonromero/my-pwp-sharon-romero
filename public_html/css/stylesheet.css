@@ -8,6 +8,7 @@ body {
 	background-size: cover;
 }
 
-#circle {
-	border: none;
+.img-thumbnail {
+	border: 0 none;
+	box-shadow: none;
 }
