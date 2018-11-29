@@ -34,7 +34,7 @@
 		<!--Link Buttons-->
 		<div class="container-fluid mt-2">
 			<nav class="nav">
-				<a class="nav-link contact text-white" href="#!">Contact</a>
+				<a class="nav-link contact text-white" href="#contact">Contact</a>
 			</nav>
 		</div>
 
@@ -89,7 +89,7 @@
 
 		<!--Form-->
 		<div class="container">
-			<h4 class="text-primary">Contact Me</h4><br>
+			<h4 id="contact" class="text-primary">Contact Me</h4><br>
 
 			<form id="pwp-form" action="php/mailer.php" method="post">
 			<div class="form-group text-primary">

@@ -53,7 +53,7 @@ try {
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+	$swiftMessage->setSubject($name);
 
 	/**
 	 * Attach the actual message to the message.
