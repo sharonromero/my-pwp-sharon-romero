@@ -14,7 +14,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("pwp-form").validate({
+	$("#pwp-form").validate({
 
 		// setup handling of form errors
 		debug: true,

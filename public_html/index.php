@@ -11,7 +11,7 @@
 		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 			<!--jQuery files for Bootstrap-->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
@@ -83,22 +83,17 @@
 
 			<form id="pwp-form" action="php/mailer.php" method="post">
 			<div class="form-group text-primary">
-				<label for="firstname">First Name:</label>
-				<input type="text" class="form-control" id="firstname">
+				<label for="name">Name:</label>
+				<input type="text" name="pwp-form" class="form-control" id="name">
 			</div>
 
 			<div class="form-group text-primary">
-				<label for="lastname">Last Name:</label>
-				<input type="text" class="form-control" id="lastname">
-			</div>
-
-			<div class="form-group text-primary">
-				<label for="emailaddress">Email Address:</label>
+				<label for="emailaddress">Email:</label>
 				<input type="email" class="form-control" id="emailaddress">
 			</div>
 
 			<div class="form-group text-primary">
-				<label for="comments">Comments:</label>
+				<label for="comments">Message:</label>
 				<textarea name="comments" rows="4" cols="60" maxlength="250" placeholder="250 characters max"
 							 id="comments"></textarea>
 			</div>

@@ -19,10 +19,10 @@ require_once("mail-config.php");
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
-try{
+try {
 
 		//if there's a reCAPTCHA error, throw an exception
-	if(!$resp->isSuccess()) {
+	if (!$resp->isSuccess()) {
 		throw(new Exception("reCAPTCHA error!"));
 	}
 	/**
@@ -32,7 +32,6 @@ try{
 	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create Swift message
 	$swiftMessage = new Swift_Message();
