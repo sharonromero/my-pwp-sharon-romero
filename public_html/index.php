@@ -58,17 +58,31 @@
 					<p>Hello! Welcome to my website.</p>
 					<p>I am an aspiring web developer who has recently graduated from the Deep-Dive Coding
 						Bootcamp. For the past 10 weeks I have done nothing but code. I know first-hand that becoming a web
-						developer is no easy task. It takes a lot of hours and determination	to become a web developer. As
-						I'm sure you are aware, there is a lot of information available that can help budding web
-						developers learn all they need to know to become a great web developer but with so much information
-						available, it can be hard figuring out where to start. Throughout the 10 weeks I was in the
-						bootcamp, I came across some great resources that are helpful to new web developers. I have listed
-						some of them below.</p>
+						developer is no easy task. This website, which was one of my class projects, was created to
+						showcase other projects I will be working on to provide inspiration to other beginner web developers and as a place to share
+						helpful resources. I have listed some of those resources below. As I create more projects they
+						will be added to the website.
+
+					<p>Feel free to look around as more projects are added and send me a
+						message if you have any questions.</p>
+
+					<ul>
+						<li><a href="https://codepen.io/">Codepen.io</a> </li>
+						<li><a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2
+						.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3ahtml%0apage%3a1%0as%3arelevance%0asa%3atrue
+						%0aproducttypeid%3a2">Essential Training with James Williamson</a> on Lynda.com</li>
+						<li><a href="https://www.learningwebdesign.com/">Web Design A Beginner's Guide to HTML, CSS,
+								JavaScript, and Web Graphics</a> by Jennifer
+							Niederst Robbins</li>
+					</ul>
 				</div>
 
 				<!--place for image-->
 				<div class="col-6 col-md-4">
-					<img src="https://news.nationalgeographic.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324.ngsversion.1526587209178.adapt.1900.1.jpg" width="400" height="300" alt="Man with backpack"/>
+					<img src="documentation/mobile-wireframe.JPG"/>
+					<!--  src="https://news.nationalgeographic
+					.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324
+					.ngsversion.1526587209178.adapt.1900.1.jpg" width="400" height="300" alt="cat"/>-->
 
 				</div>
 			</div>
