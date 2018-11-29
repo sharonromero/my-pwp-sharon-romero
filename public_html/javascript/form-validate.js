@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("pwp-form")[0].reset();
+						$("#pwp-form")[0].reset();
 					}
 				}
 			})

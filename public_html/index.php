@@ -84,17 +84,17 @@
 			<form id="pwp-form" action="php/mailer.php" method="post">
 			<div class="form-group text-primary">
 				<label for="name">Name:</label>
-				<input type="text" name="pwp-form" class="form-control" id="name">
+				<input type="text" name="name" class="form-control" id="name">
 			</div>
 
 			<div class="form-group text-primary">
 				<label for="emailaddress">Email:</label>
-				<input type="email" class="form-control" id="emailaddress">
+				<input type="email" name="email" class="form-control" id="emailaddress">
 			</div>
 
 			<div class="form-group text-primary">
 				<label for="comments">Message:</label>
-				<textarea name="comments" rows="4" cols="60" maxlength="250" placeholder="250 characters max"
+				<textarea name="message" rows="4" cols="60" maxlength="250" placeholder="250 characters max"
 							 id="comments"></textarea>
 			</div>
 
