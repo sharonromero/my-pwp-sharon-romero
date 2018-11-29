@@ -7,3 +7,7 @@ body {
 	background-image: url("../img/abstract-2738403_1920.jpg");
 	background-size: cover;
 }
+
+#circle {
+	border: none;
+}

@@ -70,8 +70,8 @@
 						<li><a href="https://codepen.io/">Codepen.io</a> </li>
 						<li><a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2
 						.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3ahtml%0apage%3a1%0as%3arelevance%0asa%3atrue
-						%0aproducttypeid%3a2">Essential Training with James Williamson</a> on Lynda.com</li>
-						<li><a href="https://www.learningwebdesign.com/">Web Design A Beginner's Guide to HTML, CSS,
+						%0aproducttypeid%3a2">HTML Essential Training with James Williamson</a> on Lynda.com</li>
+						<li><a href="https://www.learningwebdesign.com/">Learning Web Design A Beginner's Guide to HTML, CSS,
 								JavaScript, and Web Graphics</a> by Jennifer
 							Niederst Robbins</li>
 					</ul>
@@ -79,7 +79,7 @@
 
 				<!--place for image-->
 				<div class="col-6 col-md-4">
-					<img src="documentation/mobile-wireframe.JPG"/>
+					<img id="circle" class="img-thumbnail rounded-circle" src="img/website-1624028_1280.png"/>
 					<!--  src="https://news.nationalgeographic
 					.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324
 					.ngsversion.1526587209178.adapt.1900.1.jpg" width="400" height="300" alt="cat"/>-->
