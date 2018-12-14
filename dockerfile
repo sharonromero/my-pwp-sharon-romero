@@ -33,9 +33,3 @@ RUN rm /var/www/html/index.html
 RUN composer install
 
 EXPOSE 587
-
-
-
-Collapse 
-
-Message Input
